@@ -28,7 +28,7 @@
   color: #777;
   font-size: 12px;
   font-weight: bold;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 /* styling links */
 .more-info:link,
@@ -64,7 +64,7 @@
   background: none;
   color: #000;
   cursor: pointer;
-  border: none;
+  border-top: 3px solid #000;
 }
 /* CENTERING THE PAGE */
 .container {
@@ -72,8 +72,8 @@
   height: auto;
   margin: 60px auto;
 }
-/* ADDING MARGIN BOTTOM TO P */
-p {
+/* ADDING MARGIN BOTTOM TO P CLASS*/
+.description {
   margin-bottom: 10px;
 }
 /* ADDING MARGIN LI */
