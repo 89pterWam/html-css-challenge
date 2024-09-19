@@ -15,3 +15,10 @@
 .product-price {
   font-size: 30px;
 }
+/* styling shipping */
+.shipping {
+  text-transform: uppercase;
+  color: #777;
+  font-size: 12px;
+  font-weight: bold;
+}
