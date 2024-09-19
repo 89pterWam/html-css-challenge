@@ -43,11 +43,13 @@
 .product-details {
   text-transform: uppercase;
   font-size: 22px;
+  margin-top: 20px;
 }
 /* styling the product details features */
 .product-feature {
   list-style: square;
 }
+
 /* styling the button option */
 .add-cart {
   text-transform: uppercase;
@@ -70,4 +72,8 @@
 /* ADDING MARGIN BOTTOM TO P */
 p {
   margin-bottom: 10px;
+}
+/* ADDING MARGIN LI */
+li:first-child {
+  margin-top: 10px;
 }
