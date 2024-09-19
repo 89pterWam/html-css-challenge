@@ -1,14 +1,17 @@
-/* style article content */
+/* styling article content */
 .product {
   border: 4px solid #000;
   line-height: 1.5;
   font-family: sans-serif;
 }
-/* style product title */
+/* styling product title */
 .product-title {
   text-align: center;
   text-transform: uppercase;
   background-color: #f7f7f7;
   font-size: 22px;
 }
-/* style */
+/* styling the product price*/
+.product-price {
+  font-size: 30px;
+}
