@@ -38,7 +38,6 @@
 .more-info:hover,
 :active {
   text-decoration: none;
-  font-weight: bold;
 }
 /* styling product details */
 .product-details {
@@ -49,8 +48,11 @@
 /* styling the product details features */
 .product-feature {
   list-style: square;
+  margin-left: 20px;
 }
-
+.product-feature li {
+  margin-bottom: 10px;
+}
 /* styling the button option */
 .add-cart {
   text-transform: uppercase;
@@ -58,7 +60,7 @@
   color: #fff;
   font-size: 18px;
   width: 100%;
-  padding: 15px 0;
+  padding: 15px;
 }
 .add-cart:hover {
   background: none;
@@ -80,9 +82,9 @@
 li:first-child {
   margin-top: 10px;
 }
-li {
+/* li {
   margin-bottom: 5px;
-}
-ul {
+} */
+/* ul {
   margin-left: 20px;
-}
+} */
