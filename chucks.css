@@ -60,3 +60,9 @@
   cursor: pointer;
   border: none;
 }
+/* CENTERING THE PAGE */
+.container {
+  width: 800px;
+  height: auto;
+  margin: 60px auto;
+}
