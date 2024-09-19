@@ -48,3 +48,9 @@
   color: #fff;
   font-size: 18px;
 }
+.add-cart:hover {
+  background: none;
+  color: #000;
+  cursor: pointer;
+  border: none;
+}
