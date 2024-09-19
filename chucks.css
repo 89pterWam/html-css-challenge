@@ -68,6 +68,6 @@
   margin: 60px auto;
 }
 /* ADDING MARGIN BOTTOM TO P */
-/* p {
-  margin-bottom: 20px;
-} */
+p {
+  margin-bottom: 10px;
+}
