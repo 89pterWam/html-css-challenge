@@ -20,17 +20,19 @@
 }
 
 /* PSEUDO-ELEMENT OF PRODUCT TITLE */
-h2:after {
+.sale:after {
   content: "SALE";
   background-color: #ff2e2e;
   color: #fff;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 14px;
   font-family: sans-serif;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.28em;
   padding: 5px 10px;
   border: 5px solid #ff2e2e;
-  /* left: 100px; */
+  top: -20px;
+  left: -40px;
+  position: absolute;
 }
 /* styling the product price*/
 .product-price {
@@ -87,6 +89,7 @@ h2:after {
   width: 825px;
   height: auto;
   margin: 100px auto;
+  position: relative;
 }
 /* ADDING MARGIN BOTTOM TO P CLASS*/
 .description {
