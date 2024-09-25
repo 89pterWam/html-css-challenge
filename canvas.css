@@ -50,6 +50,7 @@
 :visited {
   color: #000;
   display: inline-block;
+  margin-bottom: 20px;
 }
 .more-info:hover,
 :active {
@@ -111,3 +112,4 @@
   left: -47px;
   position: absolute;
 }
+/* FLOATS */
