@@ -112,3 +112,9 @@
   left: -47px;
   position: absolute;
 }
+
+/* FLOATS */
+
+.images {
+  float: left;
+}
