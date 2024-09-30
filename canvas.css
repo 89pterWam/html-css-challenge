@@ -24,6 +24,9 @@
 }
 .item-price {
   font-size: 24px;
+
+  /* FLOATS VALUES */
+  float: left;
 }
 .shipping {
   text-transform: uppercase;
@@ -31,6 +34,9 @@
   margin-bottom: 10px;
   font-weight: bold;
   color: #777;
+
+  /* FLOAT VALUES */
+  float: right;
 }
 .item-details {
   text-transform: uppercase;
@@ -47,6 +53,9 @@
 }
 .item-description {
   margin-bottom: 10px;
+
+  /* FLOAT VALUES */
+  clear: both;
 }
 /* STYLING THE ANCHOR ELEMENT */
 .more-info:link,
@@ -119,3 +128,14 @@
 }
 
 /* DESIGN FLOAT LAYOUT WITH BEST SOLUTION AND PRACTICE */
+.item-info {
+  width: 243px;
+  float: left;
+}
+.item-detail {
+  width: 243px;
+  float: right;
+}
+.item-image {
+  float: left;
+}
