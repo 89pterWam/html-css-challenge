@@ -128,13 +128,24 @@
 }
 
 /* DESIGN FLOAT LAYOUT WITH BEST SOLUTION AND PRACTICE */
+
+/* Calculating the size of the 3 child container
+item's width = 825px
+item's border's 2 sides = 4*2 = 8px
+image's size = 250
+space between child containers = 40px
+(825 - 8 - 250 - 40) / 2 = 243.5 px each child container
+ */
+
 .item-info {
   width: 243px;
   float: left;
+  margin-left: 40px;
 }
 .item-detail {
   width: 243px;
   float: right;
+  margin-left: 40px;
 }
 .item-image {
   float: left;
