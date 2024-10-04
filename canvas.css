@@ -14,6 +14,11 @@
   width: 825px;
   margin: 50px auto;
   position: relative;
+
+  /* CSS GRID */
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  column-gap: 40px;
 }
 .item-title {
   text-transform: uppercase;
@@ -21,9 +26,13 @@
   padding: 18px;
   text-align: center;
   font-size: 22px;
+
+  /* CSS GRID */
+  grid-column: 1/-1;
 }
 .item-price {
   font-size: 24px;
+  margin-bottom: 20px;
 }
 .shipping {
   text-transform: uppercase;
@@ -31,21 +40,33 @@
   margin-bottom: 0;
   font-weight: bold;
   color: #777;
+
+  /* FLEXBOX */
+  align-self: center;
 }
+
+/* PRODUCT DETAILS FEATURES */
 .item-details {
   text-transform: uppercase;
   font-size: 17px;
   margin-top: 25px;
 }
+
+/* PRODUCT FEATURES */
 .items-list {
   list-style: square;
   margin-top: 20px;
   margin-left: 20px;
 }
+
+/* PRODUCT LISTS */
 .items-list li {
   margin-bottom: 9px;
 }
-
+/* PRODUCT DESCRIPTION */
+.descript {
+  margin-top: 15px;
+}
 /* STYLING THE ANCHOR ELEMENT */
 .more-info:link,
 :visited {
@@ -68,6 +89,9 @@
   border: 2px solid #000;
   color: #fff;
   font-weight: normal;
+
+  /* CSS GRID */
+  grid-column: 1/-1;
 }
 .add-cart:hover {
   background-color: #fff;
@@ -116,11 +140,21 @@
 
 .price-shipping {
   display: flex;
-  align-items: center;
+  align-items: start;
   gap: 65px;
 }
 
 .colors {
   display: flex;
   gap: 15px;
+}
+
+/* CSS GRID */
+
+.item-info {
+  align-self: center;
+}
+
+.item-detail {
+  align-self: center;
 }
